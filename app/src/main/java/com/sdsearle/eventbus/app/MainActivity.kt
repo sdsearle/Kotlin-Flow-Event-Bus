@@ -1,8 +1,8 @@
-package com.cren90.eventbus.app
+package com.sdsearle.eventbus.app
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.cren90.eventbus.EventBus
+import com.sdsearle.eventbus.EventBus
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.collect

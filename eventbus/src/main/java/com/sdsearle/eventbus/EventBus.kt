@@ -2,7 +2,7 @@
  * Created by Chris Renfrow on 9/21/20.
  */
 
-package com.cren90.eventbus
+package com.sdsearle.eventbus
 
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.channels.BroadcastChannel

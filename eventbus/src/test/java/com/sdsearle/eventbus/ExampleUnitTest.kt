@@ -1,4 +1,4 @@
-package com.cren90.eventbus
+package com.sdsearle.eventbus
 
 import org.junit.Test
 

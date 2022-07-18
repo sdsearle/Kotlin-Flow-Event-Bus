@@ -7,7 +7,7 @@ android {
     buildToolsVersion "29.0.3"
 
     defaultConfig {
-        applicationId "com.cren90.eventbus.app"
+        applicationId "com.sdsearle.eventbus.app"
         minSdkVersion 22
         targetSdkVersion 33
         versionCode 1
