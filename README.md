@@ -2,7 +2,7 @@
 An easy to use event bus based on Kotlin Coroutine flows
 
 ### Specs
-[![](https://jitpack.io/v/cren90/Kotlin-Flow-Event-Bus.svg)](https://jitpack.io/#cren90/Kotlin-Flow-Event-Bus) [![API](https://img.shields.io/badge/API-16%2B-orange.svg?style=flat)](https://android-arsenal.com/api?level=16) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![](https://jitpack.io/v/sdsearle/Kotlin-Flow-Event-Bus.svg)](https://jitpack.io/#sdsearle/Kotlin-Flow-Event-Bus) [![API](https://img.shields.io/badge/API-16%2B-orange.svg?style=flat)](https://android-arsenal.com/api?level=16) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 # Download
 
@@ -22,7 +22,7 @@ allprojects {
 dependencies {
     // other dependencies here
     
-	        implementation 'com.github.cren90:Kotlin-Flow-Event-Bus:<version>'
+	        implementation 'com.github.sdsearle:Kotlin-Flow-Event-Bus:<version>'
 	}
 ```
 
