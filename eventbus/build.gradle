@@ -11,7 +11,7 @@ ext {
     siteUrl = 'https://github.com/sdsearle/Kotlin-Flow-Event-Bus'
     gitUrl = 'https://github.com/sdsearle/Kotlin-Flow-Event-Bus.git'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.0.3'
 
     developerId = 'sdsearle'
     developerName = 'Spencer Searle'
@@ -52,4 +52,18 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            // Creates a Maven publication called "release".
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.github.sdsearle'
+                artifactId = 'eventBus'
+                version = '1.0.3'
+            }
+        }
+    }
 }
