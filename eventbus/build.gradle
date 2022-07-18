@@ -4,23 +4,7 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: 'maven-publish'
 
 group = 'com.github.sdsearle'
-
-ext {
-    libraryDescription = 'An easy to use event bus based on Kotlin Coroutine flows'
-
-    siteUrl = 'https://github.com/sdsearle/Kotlin-Flow-Event-Bus'
-    gitUrl = 'https://github.com/sdsearle/Kotlin-Flow-Event-Bus.git'
-
-    libraryVersion = '1.0.3'
-
-    developerId = 'sdsearle'
-    developerName = 'Spencer Searle'
-    developerEmail = 'spencer.seiro@gmail.com'
-
-    licenseName = 'The Apache Software License, Version 2.0'
-    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-    allLicenses = ["Apache-2.0"]
-}
+version = '1.0.3'
 
 android {
     compileSdkVersion 33
@@ -61,7 +45,7 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
                 groupId = 'com.github.sdsearle'
-                artifactId = 'eventBus'
+                artifactId = 'Kotlin-Flow-Event-Bus'
                 version = '1.0.3'
             }
         }
